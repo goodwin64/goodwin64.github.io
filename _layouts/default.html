@@ -3,18 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Max Donchenko's personal website</title>
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
 
 	<header>
 		<h1>Max Donchenko's personal website</h1>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/projects.html">Projects</a></li>
-		</ul>
+		{% include nav.html navclass="nav-top" %}
 	</header>
 	
 	{{content}}
+
+	<footer>
+		{% include nav.html navclass="nav-bottom" %}
+		<p>© Max Donchenko, Kyiv, 2016</p>
+	</footer>
 
 </body>
 </html>

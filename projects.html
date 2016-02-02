@@ -3,3 +3,26 @@ layout: default
 ---
 
 <h1>My projects</h1>
+
+
+<div class="projects">
+	{% for project in site.posts %}
+	<div class="proj">
+		<div class="proj-pic">
+			<a href=""><img src="{{project.img-src}}"></a>
+		</div>
+		<div class="proj-details">
+			<h3>{{project.name}}</h3>
+			<div class="proj-description">
+				<p>{{project.description}}</p>
+			</div>
+			<div class="date-published">
+				<h6>{{project.date}}</h6>
+			</div>
+			<div class="extra-links">
+				<!-- soon here will be added some links -->
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

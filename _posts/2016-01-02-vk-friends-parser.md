@@ -3,6 +3,7 @@ layout: projects
 name: VK friends parser
 description: script written on JS which parses a list of friends in VK social network
 img-src: images/2.png
+link: #
 category: projects
 ---
 

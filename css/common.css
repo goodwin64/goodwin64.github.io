@@ -26,24 +26,39 @@ html {
 	clear: both;
 }
 
+.projects {
+	display: block;
+	position: relative;
+}
+
+.projects > a {
+	color: #000;
+	height: 95%;
+}
+
 .proj {
 	position: relative;
 	padding: 5px;
 	margin: 5px;
 	border: 1px solid black;
 	float: left;
-	max-width: 25%;
-	height: 50%;
+	height: 200px;
+	width: 500px;
 }
 
 .proj-pic {
-	width: 50%;
+	margin: 5px;
+	width: 45%;
 	height: 50%;
 	float: left;
 }
 
+.proj-pic > img {
+	width: 100%;
+}
+
 .proj-details {
-	width: 50%;
+	width: 45%;
 	float: right;
 }
 
@@ -54,7 +69,8 @@ html {
 
 .proj-description {
 	max-width: 100%;
-	height: 60%;
+	margin: 25px auto;
+	height: 80px;
 }
 
 .proj-date-published {

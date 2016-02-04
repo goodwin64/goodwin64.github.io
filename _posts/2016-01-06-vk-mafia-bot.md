@@ -3,6 +3,7 @@ layout: projects
 name: VK Mafia bot
 description: Bot for "Mafia" game in VK social network
 img-src: images/1.png
+link: https://github.com/goodwin64/VK-mafia-bot
 category: projects
 ---
 

@@ -5,6 +5,26 @@ html {
 	font: normal 100%/1.4 Calibri, serif;
 }
 
+header {
+	width: 1200px;
+	margin: auto;
+}
+
+footer {
+	width: 1200px;
+	margin: auto;
+}
+
+body {
+	background: #e2e2e2;
+    background: linear-gradient(to left, #e2e2e2 0%, #ffa500 700%);
+}
+
+.content-center {
+	width: 1200px;
+	margin: auto;
+}
+
 .current {
 	background-color: #010;
 	color: #fee;
@@ -29,16 +49,18 @@ html {
 .projects {
 	display: block;
 	position: relative;
+	height: 500px;
+	width: 1050px;
+	margin: auto;
 }
 
 .projects > a {
 	color: #000;
-	height: 95%;
 }
 
 .proj {
 	position: relative;
-	padding: 5px;
+	padding: 2px;
 	margin: 5px;
 	border: 1px solid black;
 	float: left;
@@ -58,6 +80,7 @@ html {
 }
 
 .proj-details {
+	padding: 3px;
 	width: 45%;
 	float: right;
 }

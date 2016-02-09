@@ -3,7 +3,8 @@ layout: projects
 name: Bulls and Cows
 description: Bulls & Cows game written on JS
 img-src: images/4.png
-link: https://github.com/goodwin64/OOP1-Cpp-3rd-semester/tree/master/OOP_game_Bulls_and_Cows
+link: https://output.jsbin.com/benoga/1
+link-src: https://github.com/goodwin64/OOP1-Cpp-3rd-semester/tree/master/OOP_game_Bulls_and_Cows
 category: projects
 ---
 

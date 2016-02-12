@@ -4,33 +4,34 @@ layout: default
 
 <div class="content-center">
 	<h1>My projects</h1>
-</div>
-
-
-<div class="projects">
-	{% for project in site.posts %}
-	<div class="proj">
-		<a href="{{project.link}}">
-			<div class="proj-pic">
-				<img src="{{project.img-src}}">
-			</div>
-			<div class="proj-details">
-				<div class="proj-name">
-					<h3>{{project.name}}</h3>
+	<div class="projects">
+		{% for project in site.posts %}
+		<div class="proj">
+			<a href="{{project.link}}">
+				<div class="proj-pic">
+					<img src="{{project.img-src}}">
 				</div>
-				<div class="proj-description">
-					<p>{{project.description}}</p>
+				<div class="proj-details">
+					<div class="proj-name">
+						<h3>{{project.name}}</h3>
+					</div>
+					<div class="proj-description">
+						<p>{{project.description}}</p>
+					</div>
+					<div class="extra-links">
+						<!-- soon here will be added some links: -->
+					</div>
+					<div class="proj-date-published">
+						<h6>{{project.date | date_to_string}}</h6>
+					</div>
+					
 				</div>
-				<div class="extra-links">
-					<!-- soon here will be added some links: -->
-				</div>
-				<div class="proj-date-published">
-					<h6>{{project.date | date_to_string}}</h6>
-				</div>
-				
-			</div>
-		</a>
+			</a>
+		</div>
+		
+		{% endfor %}
 	</div>
-	
-	{% endfor %}
 </div>
+
+
+

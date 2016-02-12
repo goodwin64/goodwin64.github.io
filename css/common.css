@@ -11,23 +11,22 @@ header {
 }
 
 footer {
-	width: 1200px;
-	margin: auto;
+	position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background: #aaa;
+    color: #fff;
+    width: 100%;
 }
 
 body {
-	background: #e2e2e2;
-    background: linear-gradient(to left, #e2e2e2 0%, #ffa500 700%);
+    background: #E8E8E8 url(https://st.prntscr.com/2016/02/04/0347/img/page-bg.png) 0 0;
 }
 
 .content-center {
 	width: 1200px;
+	min-height: 500px;
 	margin: auto;
-}
-
-.current {
-	background-color: #010;
-	color: #fee;
 }
 
 .nav {
@@ -36,6 +35,19 @@ body {
 
 .nav > li {
 	display: inline-block;
+}
+
+a, a:active, a:visited {
+	color: #330000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #491616;
+}
+
+.current {
+	text-decoration: underline;
 }
 
 .nav-top {
@@ -103,4 +115,19 @@ body {
 
 .proj > h1, h3, h6, p {
 	margin: 0;
+}
+
+.links {
+	list-style-type: none;
+	margin: 30px;
+}
+
+.links > li {
+	margin: 5px;
+	font: 1.5em Georgia, Arial, sans-serif;
+}
+
+.links > li > a > img {
+	width: 32px;
+	height: 32px;
 }

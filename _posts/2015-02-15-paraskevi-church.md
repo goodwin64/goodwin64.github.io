@@ -1,7 +1,7 @@
 ---
 layout: projects
-name: saint Paraskeva's church
-description: saint Paraskeva's church - official website
+name: Saint Paraskeva's church
+description: Saint Paraskeva's church - official website
 img-src: images/3.png
 link: http://gw64.hol.es/paraskevi/
 category: projects

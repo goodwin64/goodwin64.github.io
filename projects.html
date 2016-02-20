@@ -6,8 +6,8 @@ layout: default
 	<h1>My projects</h1>
 	<div class="projects">
 		{% for project in site.posts %}
-		<div class="proj">
-			<a href="{{project.link}}">
+		<a href="{{project.link}}">
+			<div class="proj">
 				<div class="proj-pic">
 					<img src="{{project.img-src}}">
 				</div>
@@ -24,10 +24,9 @@ layout: default
 					<div class="proj-date-published">
 						<h6>{{project.date | date_to_string}}</h6>
 					</div>
-					
 				</div>
-			</a>
-		</div>
+			</div>
+		</a>
 		
 		{% endfor %}
 	</div>

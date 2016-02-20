@@ -1,7 +1,7 @@
 ---
 layout: projects
 name: VK friends parser
-description: script written on JS which parses a list of friends in VK social network
+description: Script written on JS which parses a list of friends in VK social network
 img-src: images/2.png
 link: https://greasyfork.org/ru/scripts/16837-vk-friends-parser
 category: projects

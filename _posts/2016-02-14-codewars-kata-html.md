@@ -1,6 +1,6 @@
 ---
 layout: projects
-name: HTML complementary color (JS, Python, Haskell)
+name: HTML complementary color (JS, Java, Python, Haskell)
 description: to watch you should be logged in on codewars.com
 img-src: images/6.png
 link: http://www.codewars.com/kata/html-complementary-color
